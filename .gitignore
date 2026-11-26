@@ -1,0 +1,38 @@
+# Node.js / Client
+Client/node_modules/
+Client/dist/
+Client/dist-ssr/
+Client/*.local
+Client/.env
+
+# .NET / Server
+Server/bin/
+Server/obj/
+Server/app.db
+Server/app.db-shm
+Server/app.db-wal
+Server/appsettings.Development.json
+
+# Build Outputs
+Build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor / Misc
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Extra
+ERP_System_Secured.zip
+Server/*.db*
+brain/
+scratch/
+error.txt

@@ -1,0 +1,1 @@
+import sqlite3; conn = sqlite3.connect('app.db'); print(conn.execute('SELECT ProductId, Quantity, ReturnedQuantity FROM OrderDetails WHERE LOWER(OrderId) = LOWER(?)', ('6244a83f-399a-4c14-8856-40a8971c1309',)).fetchall())
